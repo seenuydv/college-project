@@ -12,7 +12,7 @@ const Cart = () => {
 
   const isCartEmpty = () => {
     if(cartItems.length === 0){
-      toast.error("Your cart is empty");
+      toast.error("Your cart is empty please add some items.");
     }else{
       navigate("/thank-you");
     }
